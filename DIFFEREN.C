@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n,count=1,posi=0,neg=0,odd=0,even=0,large=0,small=0;
+printf("enter n:");
+scanf("%d",n);
+for(count=1;count<=10;count++)
+{
+if(posi>=posi)
+{
+large=posi;
+}
+if(posi<=posi)
+{
+small=posi;
+}
+if(n>0)
+{
+posi++;
+}
+if(n<0)
+{
+neg++;
+}
+if(n%2==0)
+{
+even++;
+}
+if(n%2!=0)
+{
+odd++;
+}
+}
+printf("posi:&d\n",posi);
+printf("neg:%d\n",neg);
+printf("odd:%d\n",odd);
+printf("even:%d\n",even);
+printf("large:%d\n",large);
+printf("small:%d\n",small);
+getch();
+}
